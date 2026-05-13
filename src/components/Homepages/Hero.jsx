@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
+
 import Image from "next/image";
 import heroBg from "@/assets/garden.png";
 import HeroForm from "@/utils/HeroForm";
 
 const Hero = () => {
   return (
-    <div className="relative rounded-b-2xl container mx-auto w-full h-100 lg:h-200 flex items-center justify-center overflow-hidden">
+    <div className="relative lg:rounded-b-2xl container mx-auto w-full h-100 lg:h-200 flex items-center justify-center overflow-hidden">
       <Image
         src={heroBg}
         alt="Hero Background"

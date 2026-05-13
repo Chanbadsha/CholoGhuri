@@ -2,26 +2,28 @@
 import { Magnifier } from "@gravity-ui/icons";
 
 import "react-datepicker/dist/react-datepicker.css";
-import {
-  Button,
-  Description,
-  FieldError,
-  Form,
-  Input,
-  Label,
-  TextField,
-} from "@heroui/react";
+import { Button, Form, Input, Label, TextField } from "@heroui/react";
 import DatePicker from "react-datepicker";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const HeroForm = () => {
+  const [mounted, setMounted] = useState(false);
+  const [date, setDate] = useState(null);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+
   const onSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
     console.log(data);
   };
-  const [date, setDate] = useState("");
+
+  // ✅ Prevent hydration mismatch
+  if (!mounted) return null;
   return (
     <div>
       <Form
@@ -43,8 +45,8 @@ const HeroForm = () => {
         </TextField>
 
         {/* When */}
-        <TextField name="date" type="date" className="flex-1">
-          <Label className="text-sky-300 text-xs font-medium ml-2 text-left mb-1">
+        <TextField className="flex-1">
+          <Label className="text-sky-300 text-xs font-medium text-left ml-2 mb-1">
             When
           </Label>
 
@@ -52,7 +54,10 @@ const HeroForm = () => {
             selected={date}
             onChange={(d) => setDate(d)}
             placeholderText="Add dates"
-            className="w-full bg-transparent text-white placeholder:text-white/40 text-sm outline-none"
+            className="w-full h-10 px-3 rounded-xl bg-white/5 border border-white/10 
+            backdrop-blur-xl text-white placeholder:text-white/40 text-sm 
+            outline-none focus:border-sky-400 focus:bg-white/10 
+            transition-all duration-300"
           />
         </TextField>
 
