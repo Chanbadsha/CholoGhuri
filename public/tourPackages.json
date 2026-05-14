@@ -1,0 +1,417 @@
+[
+    {
+        "id": "tour_001",
+        "title": "Cox's Bazar Premium Beach Escape",
+        "slug": "cox-bazar-premium-beach-escape",
+        "category": "Beach",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Cox's Bazar",
+            "region": "Chattogram",
+            "coordinates": {
+                "lat": 21.4272,
+                "lng": 92.0058
+            }
+        },
+        "shortDescription": "Experience the world's longest natural sea beach with luxury stay and guided tours.",
+        "fullDescription": "This premium Cox's Bazar tour offers a complete seaside experience including sunset views, Inani Beach, Himchari waterfalls, and luxury hotel stays with professional guides.",
+        "images": "https://i.ibb.co.com/5WZQzKPP/beach.png",
+        "pricing": {
+            "currency": "BDT",
+            "basePrice": 8500,
+            "discountPrice": 7500,
+            "discountPercent": 12
+        },
+        "duration": {
+            "days": 3,
+            "nights": 2
+        },
+        "rating": {
+            "average": 4.8,
+            "totalReviews": 3200
+        },
+        "availability": {
+            "totalSeats": 30,
+            "availableSeats": 12,
+            "isActive": true
+        },
+        "inclusions": [
+            "AC Bus transport (Dhaka to Cox's Bazar)",
+            "3-star beachfront hotel",
+            "Breakfast included",
+            "Professional tour guide",
+            "Sightseeing (Inani, Himchari)",
+            "Beach activities support"
+        ],
+        "exclusions": [
+            "Lunch and dinner",
+            "Entry tickets",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "highlights": [
+            "World’s longest sea beach",
+            "Sunset photography spots",
+            "Sea surfing experience",
+            "Luxury beachfront stay"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Departure & Beach Arrival",
+                "activities": [
+                    "Night departure from Dhaka",
+                    "Morning arrival in Cox's Bazar",
+                    "Hotel check-in",
+                    "Beach relaxation session"
+                ]
+            },
+            {
+                "day": 2,
+                "title": "Explore Cox's Bazar",
+                "activities": [
+                    "Visit Inani Beach",
+                    "Himchari waterfall tour",
+                    "Beach photography session",
+                    "Sunset viewing"
+                ]
+            },
+            {
+                "day": 3,
+                "title": "Return Journey",
+                "activities": [
+                    "Morning beach walk",
+                    "Breakfast",
+                    "Check-out",
+                    "Return to Dhaka"
+                ]
+            }
+        ],
+        "guide": {
+            "name": "Rahim Uddin",
+            "experienceYears": 6,
+            "languages": [
+                "Bangla",
+                "English"
+            ]
+        },
+        "policy": {
+            "cancellation": "Free cancellation before 7 days",
+            "refund": "50% refund within 3–7 days",
+            "weatherPolicy": "Tour may be rescheduled due to weather conditions"
+        },
+        "seo": {
+            "metaTitle": "Cox's Bazar Premium Tour Package | CholoGhuri",
+            "metaDescription": "Book Cox's Bazar premium beach tour with hotel, transport, and guided sightseeing in Bangladesh."
+        },
+        "tags": [
+            "beach",
+            "luxury",
+            "cox-bazar",
+            "family",
+            "couple"
+        ]
+    },
+    {
+        "id": "tour_002",
+        "title": "Sajek Valley Cloud Experience Tour",
+        "slug": "sajek-valley-cloud-experience-tour",
+        "category": "Hill",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Sajek",
+            "region": "Rangamati",
+            "coordinates": {
+                "lat": 23.3814,
+                "lng": 92.2938
+            }
+        },
+        "shortDescription": "Walk through clouds and experience magical hill landscapes in Sajek.",
+        "fullDescription": "A breathtaking hill tour featuring cloud-filled valleys, tribal culture, sunrise viewpoints, and peaceful nature stays.",
+        "images": "https://i.ibb.co.com/1GzjTNQ3/sajek.png",
+        "pricing": {
+            "currency": "BDT",
+            "basePrice": 9500,
+            "discountPrice": 8200
+        },
+        "duration": {
+            "days": 3,
+            "nights": 2
+        },
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 2800
+        },
+        "availability": {
+            "totalSeats": 25,
+            "availableSeats": 9,
+            "isActive": true
+        },
+        "inclusions": [
+            "Transport",
+            "Hotel",
+            "Breakfast",
+            "Guide",
+            "Sightseeing"
+        ],
+        "exclusions": [
+            "Lunch",
+            "Entry fees",
+            "Personal expenses"
+        ],
+        "highlights": [
+            "Cloud valley",
+            "Hill sunrise",
+            "Tribal village",
+            "Nature walk"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Journey to Sajek",
+                "activities": [
+                    "Departure",
+                    "Hill road travel",
+                    "Sunset view"
+                ]
+            },
+            {
+                "day": 2,
+                "title": "Explore Sajek",
+                "activities": [
+                    "Ruilui para visit",
+                    "Helipad sunrise",
+                    "Local tribal culture"
+                ]
+            },
+            {
+                "day": 3,
+                "title": "Return",
+                "activities": [
+                    "Breakfast",
+                    "Photo session",
+                    "Return to Dhaka"
+                ]
+            }
+        ],
+        "guide": {
+            "name": "Arif Hossain",
+            "experienceYears": 5,
+            "languages": [
+                "Bangla",
+                "English"
+            ]
+        },
+        "policy": {
+            "cancellation": "7 days before free cancellation"
+        },
+        "seo": {
+            "metaTitle": "Sajek Valley Cloud Tour Package | CholoGhuri",
+            "metaDescription": "Explore Sajek Valley with cloud views, hills, and tribal culture experience."
+        },
+        "tags": [
+            "sajek",
+            "hill",
+            "cloud",
+            "nature"
+        ]
+    },
+    {
+        "id": "tour_003",
+        "title": "Saint Martin Coral Island Adventure",
+        "slug": "saint-martin-coral-island-adventure",
+        "category": "Island",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Saint Martin",
+            "region": "Cox's Bazar",
+            "coordinates": {
+                "lat": 20.6234,
+                "lng": 92.3235
+            }
+        },
+        "shortDescription": "Discover Bangladesh’s only coral island with crystal-clear water.",
+        "fullDescription": "Enjoy snorkeling, island camping, beach walking, and fresh seafood in Saint Martin Island.",
+        "images": "https://i.ibb.co.com/C3bLBxj6/martin.png",
+        "pricing": {
+            "currency": "BDT",
+            "basePrice": 12000,
+            "discountPrice": 10500
+        },
+        "duration": {
+            "days": 4,
+            "nights": 3
+        },
+        "rating": {
+            "average": 4.9,
+            "totalReviews": 4100
+        },
+        "availability": {
+            "totalSeats": 20,
+            "availableSeats": 6,
+            "isActive": true
+        },
+        "inclusions": [
+            "Boat transport",
+            "Hotel",
+            "Breakfast",
+            "Island tour"
+        ],
+        "exclusions": [
+            "Snorkeling gear",
+            "Lunch",
+            "Personal expenses"
+        ],
+        "highlights": [
+            "Coral island",
+            "Blue water",
+            "Island camping",
+            "Seafood experience"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Travel to Teknaf",
+                "activities": [
+                    "Departure",
+                    "Night stay"
+                ]
+            },
+            {
+                "day": 2,
+                "title": "Island Entry",
+                "activities": [
+                    "Boat ride",
+                    "Hotel check-in",
+                    "Beach walk"
+                ]
+            },
+            {
+                "day": 3,
+                "title": "Island Exploration",
+                "activities": [
+                    "Snorkeling",
+                    "St. Martin market",
+                    "Sunset"
+                ]
+            },
+            {
+                "day": 4,
+                "title": "Return",
+                "activities": [
+                    "Breakfast",
+                    "Return journey"
+                ]
+            }
+        ],
+        "guide": {
+            "name": "Nabil Hasan",
+            "experienceYears": 7
+        },
+        "policy": {
+            "weatherPolicy": "Boat depends on sea condition"
+        },
+        "seo": {
+            "metaTitle": "Saint Martin Island Tour Package | CholoGhuri",
+            "metaDescription": "Book coral island tour with snorkeling and beach camping experience."
+        },
+        "tags": [
+            "island",
+            "beach",
+            "luxury",
+            "sea"
+        ]
+    },
+    {
+        "id": "tour_004",
+        "title": "Bandarban Jungle Adventure Trek",
+        "slug": "bandarban-jungle-adventure-trek",
+        "category": "Adventure",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Bandarban",
+            "region": "Chattogram",
+            "coordinates": {
+                "lat": 22.1953,
+                "lng": 92.2184
+            }
+        },
+        "shortDescription": "Deep jungle trekking and mountain adventure experience.",
+        "fullDescription": "Explore waterfalls, tribal villages, and mountain trekking routes in Bandarban.",
+        "images": "https://i.ibb.co.com/hxfMVV8V/bandorban.png",
+        "pricing": {
+            "currency": "BDT",
+            "basePrice": 7800,
+            "discountPrice": 6900
+        },
+        "duration": {
+            "days": 3,
+            "nights": 2
+        },
+        "rating": {
+            "average": 4.7,
+            "totalReviews": 1900
+        },
+        "availability": {
+            "totalSeats": 25,
+            "availableSeats": 11,
+            "isActive": true
+        },
+        "inclusions": [
+            "Guide",
+            "Transport",
+            "Hotel"
+        ],
+        "exclusions": [
+            "Food",
+            "Entry fees"
+        ],
+        "highlights": [
+            "Trekking",
+            "Waterfalls",
+            "Tribal culture"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival",
+                "activities": [
+                    "Travel",
+                    "Hotel check-in"
+                ]
+            },
+            {
+                "day": 2,
+                "title": "Trekking Day",
+                "activities": [
+                    "Trekking",
+                    "Waterfall visit"
+                ]
+            },
+            {
+                "day": 3,
+                "title": "Return",
+                "activities": [
+                    "Breakfast",
+                    "Return"
+                ]
+            }
+        ],
+        "guide": {
+            "name": "Shakil Ahmed",
+            "experienceYears": 6
+        },
+        "policy": {
+            "cancellation": "3 days before allowed"
+        },
+        "seo": {
+            "metaTitle": "Bandarban Jungle Trek Tour | CholoGhuri",
+            "metaDescription": "Book Bandarban jungle adventure trekking package."
+        },
+        "tags": [
+            "adventure",
+            "jungle",
+            "trekking"
+        ]
+    }
+]
