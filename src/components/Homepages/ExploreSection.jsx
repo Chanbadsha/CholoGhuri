@@ -8,10 +8,10 @@ const ExploreSection = () => {
   return (
     <div className="container  px-3 mx-auto py-8 lg:py-16">
       <SectionHeading
-        title="Explore Bangladesh"
-        subtitle="Cultural Immersion"
+        title="Explore the Beauty of Bangladesh"
+        subtitle="Cultural & Natural Wonders"
         textColor="text-[#10B981]"
-      ></SectionHeading>
+      />
 
       <section className="grid pt-5 lg:pt-10 grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-0 lg:grid-cols-3  grid-rows-2">
         {/* Coxbazar */}

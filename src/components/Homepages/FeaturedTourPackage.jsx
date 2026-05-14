@@ -5,10 +5,10 @@ const FeaturedTourPackage = () => {
   return (
     <div className="py-5 lg:py-10 px-6">
       <SectionHeading
-        title={"Featured Tour Packages"}
-        subtitle={"Handpicked Deals"}
-        textColor={"text-[#DE8712]"}
-      ></SectionHeading>
+        title="Featured Tour Packages"
+        subtitle="Best Handpicked Deals"
+        textColor="text-[#DE8712]"
+      />
 
       {/* Package Card Container */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 justify-center gap-6">

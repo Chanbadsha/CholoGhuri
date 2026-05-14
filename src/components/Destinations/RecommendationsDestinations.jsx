@@ -9,9 +9,9 @@ const RecommendationsDestinations = () => {
   return (
     <div className="py-12 px-4">
       <SectionHeading
-        title={"Seasonal  Recommendations"}
-        subtitle={"Curated For You"}
-        textColor={"text-[#10B981]"}
+        title="Seasonal Travel Recommendations"
+        subtitle="Curated Just for You"
+        textColor="text-[#10B981]"
       />
       {/* Recommendations Card Container */}
       <div className="grid lg:grid-cols-7 md:grid-cols-2   md:grid-rows-2 gap-x-10 gap-y-2 pt-6 ">
